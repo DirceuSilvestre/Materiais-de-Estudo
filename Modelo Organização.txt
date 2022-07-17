@@ -1,7 +1,15 @@
 
 	Modelo para Padronização dos Materiais de Apoio das Linguagens
 
+
        Arquivo  "Slide.linguagem"
+
+
+       Compilar
+
+Linux:	 
+
+Windows:
 
 0  -  Sobre a Linguagem
 

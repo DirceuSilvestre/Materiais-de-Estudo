@@ -1,11 +1,17 @@
 /*
 
+            Modelo para Padronização dos Materiais de Apoio das Linguagens
+
+
+
         COMPILAR
 
     Linux:    gcc -o nome_da_saida codigo.c
               ./nome_da_saida
 
     Windows:  F6  -  VsCode
+
+
 
         SOBRE A LINGUAGEM
 
@@ -32,7 +38,7 @@
 
     int main(int argc, char *argv[ ])
     {
-        declaração de variaveis;
+        declaração de variaveis locais;
 
         leitura;
 
@@ -55,11 +61,22 @@
     */
 /*
 
+
         ATRIBUIÇÃO
 
     =   recebe
 
     variavel = dado;
+
+    variavel[] = {1, 2, 3, 4};
+
+    variavel = 3.333;
+
+    variavel = 'a';
+
+    variavel[] = {"palavra"};
+
+    #define  CONSTANTE  dado ou função
 
 
 
@@ -78,7 +95,7 @@
         bool        booleano, somente true ou false (1 ou 0)
 
 
-    Outros
+    Outros      (todos os outros tipos comuns nao primitivos e especificos da linguagem)
 
         variavel[tamanho]           vetor onde cada casa contem um dado do mesmo tipo da variavel
 
@@ -90,6 +107,12 @@
             tipo variavel;
             tipo variavel;
         };
+
+
+
+        MODIFICADORES
+
+    só em Java
 
 
 
@@ -113,26 +136,22 @@
 
     tipo variavel1, variavel2, variavel3;
 
-    int variavel = 3;
-
-    int variavel[] = {1, 2, 3, 4};
+    int variavel[inteiro];
 
     int variavel[linha][coluna];
 
-    float/double variavel = 3.333;
-
-    char variavel = 'a';
+    float/double variavel[inteiro];
 
     char variavel[tamanho];
 
     char variavel[linha][coluna];
 
-    char variavel[] = {"palavra"};
-
     struct variavel
     {
         tipo variavel;
     };
+
+    #define  CONSTANTE  dado ou função
 
 
 
@@ -255,7 +274,7 @@
             h       quando usamos short antes do tipo primitivo
             l       quando usamos long antes do tipo primitivo
             ll      quando usamos long long antes do tipo primitivo
-            L       quando usamos long double
+            L       quando usamos long double antes do tipo primitivo
 
 
     fprintf(*arquivo, "texto/impressor", ...);              imprime / escreve no arquivo

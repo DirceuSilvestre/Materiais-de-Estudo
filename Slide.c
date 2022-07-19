@@ -281,12 +281,13 @@
 
     fprintf(stdout, "texto/impressor", ...);                imprime / escreve no monitor
 
-    sprintf(variavel1, formatos dos dados, variaveis2);      le da variavel2 e escreve na variavel1
+    sprintf(variavel1, formatação, variaveis2);             pega o conteudo da variavel2, formata e insere na variavel1, como se tivesse imprimindo dentro do vetor de string que é a variavel1
 
 
 
+            ESCANEAMENTO
 
-
+    gets(array)      faz a captura do teclado para o array, porém não é seguro porque não há controle de entrada, podendo a entrada ser maior que o tamanho do array
 
 
 #Comando de Atribuição

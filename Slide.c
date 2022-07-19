@@ -232,6 +232,9 @@
         % %     imprime caracter %
         % p     endereço da memória em hexadecimal
 
+
+        sequencia de escape
+
         \n      pula pra linha de baixo
         \t      espaçamento do tab
         \a      faz um beep no auto falante
@@ -281,13 +284,31 @@
 
     fprintf(stdout, "texto/impressor", ...);                imprime / escreve no monitor
 
-    sprintf(variavel1, formatação, variaveis2);             pega o conteudo da variavel2, formata e insere na variavel1, como se tivesse imprimindo dentro do vetor de string que é a variavel1
+    sprintf(variavel1, formatação, variaveis2);             pega o conteudo da variavel2, formata e insere na variavel1, como se tivesse imprimindo 
+                                                            dentro do vetor de string que é a variavel1
 
 
 
             ESCANEAMENTO
 
-    gets(array)      faz a captura do teclado para o array, porém não é seguro porque não há controle de entrada, podendo a entrada ser maior que o tamanho do array
+    gets(array)                         faz a captura do teclado para o array inserindo \0 ao final, porém não é seguro 
+                                        porque não há controle de entrada, podendo a entrada ser maior que o tamanho do array
+
+    getchar(char)                       faz a leitura de apenas um caractere
+
+    scanf("formatação", &variavel)      como a função printf, porém para leitura
+
+        continuação em https://pt.wikibooks.org/wiki/Programar_em_C/Imprimir#puts()_e_putchar()
+
+
+
+
+
+
+
+
+
+
 
 
 #Comando de Atribuição

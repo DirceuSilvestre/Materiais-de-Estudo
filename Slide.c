@@ -281,13 +281,9 @@
             ll      quando usamos long long antes do tipo primitivo
             L       quando usamos long double antes do tipo primitivo
 
-
-    fprintf(*arquivo, "texto/impressor", ...);              imprime / escreve no arquivo
-
-    fprintf(stdout, "texto/impressor", ...);                imprime / escreve no monitor
-
+    
     sprintf(variavel1, formatação, variaveis2);             pega o conteudo da variavel2, formata e insere na variavel1, como se tivesse imprimindo 
-                                                            dentro do vetor de string que é a variavel1
+                                                            dentro do vetor de string que é a variavel1, ou seja transforma tudo do lado direito no tipo string
 
 
 
@@ -319,6 +315,45 @@
         %*s     o * é usado quando queremos ignorar a entrada do usuario, então não precisamos colocar um ponteiro que receba essa entrada
         %4d     o especificador de largura do campo no scanf diz até onde irá ler, e no caso ele só lerá 4 algarismos de um inteiro
 
+        a função scanf retorna o número de conversões feitas na hora da entrada para o tipo pedido, se eu fizer
+        num = scanf("%d %d", &a, &b);   num tem que ser igual a 2, se não for, então o usuário inseriu uma entrada inválida ao tipo pedido
+
+
+        sscanf(string, "%d %d %d", &i, &j, &k);     faz o contrário de sprintf, transformando o que era string em valores numericos e guardando em i j k
+
+        
+
+            ESTRUTURAS
+
+    Condicionais
+
+        if (condição verdadeira){bloco de comando}          se
+
+        else if (condição verdadeira){bloco de comando}     ou se
+
+        else {bloco de comando}                             senão
+
+        switch (expressão)          para cada caso
+        {
+            case 8 ou 'c':
+                comando;
+                break;
+
+            default:
+                comando;
+                break;
+        }
+
+
+    Repetição
+
+        for (inicialização; expressão; operação) {bloco de comando}     para            repetição contável
+
+        while (condição verdadeira) {bloco de comando}                  enquanto faça   repetição condicional
+
+        do {bloco de comando} while (condição verdadeira)               faça enquanto   repetição condicional
+
+        
 
         continuação em https://pt.wikibooks.org/wiki/Programar_em_C/Imprimir#puts()_e_putchar()
 

@@ -316,6 +316,10 @@
                 se quisermos incluir qualquer letra minúscula, poderiámos escrever %[a-z]; se quiséssemos também incluir as maiúsculas, 
                 colocaríamos %[a-zA-Z]. A leitura pára quando for encontrado um caractere que não coincide com o padrão especificado.
 
+        %*s     o * é usado quando queremos ignorar a entrada do usuario, então não precisamos colocar um ponteiro que receba essa entrada
+        %4d     o especificador de largura do campo no scanf diz até onde irá ler, e no caso ele só lerá 4 algarismos de um inteiro
+
+
         continuação em https://pt.wikibooks.org/wiki/Programar_em_C/Imprimir#puts()_e_putchar()
 
 

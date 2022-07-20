@@ -215,6 +215,8 @@
     puts("string string")      imprime string
 
     putchar("a")               imprime letra
+    
+    os put não tem formatação
 
     printf("%d\n", variavel)
 
@@ -295,8 +297,24 @@
                                         porque não há controle de entrada, podendo a entrada ser maior que o tamanho do array
 
     getchar(char)                       faz a leitura de apenas um caractere
-
+    
+    os get não possuem formatação
+    
     scanf("formatação", &variavel)      como a função printf, porém para leitura
+    
+        %i      interpreta como hexadecimal se o inicio for 0x ou 0X, como octal se iniciar por 0, ou como decimal se nada disso for verificado
+        %a      sinonimo de %f
+        %e      sinonimo de %f
+        %E      sinonimo de %f
+        %g      sinonimo de %f
+        %lf     usado para leitura do tipo double
+        %s      le qualquer caractere, e numero mas como letra, exceto espaço, quebra de linha, tabulação...
+        %c      le um caractere unico, uma letra de cada vez podendo ser usado dentro do for que irá ler o que foi inserido pelo teclado
+        %[...]  lê uma sequência de caracteres, sem ignorar espaços, especificando entre colchetes quais caracteres devem ser aceitos, ou, 
+                se o primeiro caractere dentro dos colchetes for um acento circunflexo (^), quais não devem ser aceitos. Além disso, 
+                se colocarmos um traço entre dois caracteres, todos os caracteres entre os dois serão incluídos no padrão. Por exemplo, 
+                se quisermos incluir qualquer letra minúscula, poderiámos escrever %[a-z]; se quiséssemos também incluir as maiúsculas, 
+                colocaríamos %[a-zA-Z]. A leitura pára quando for encontrado um caractere que não coincide com o padrão especificado.
 
         continuação em https://pt.wikibooks.org/wiki/Programar_em_C/Imprimir#puts()_e_putchar()
 

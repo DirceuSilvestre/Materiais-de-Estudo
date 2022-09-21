@@ -1,10 +1,14 @@
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-    int numero = 1;
-    numero &= 10;
-    std::cout << numero << std::endl;
+    int var;
+    cout << var << endl;
+    var++;
+    cout << var << endl;
+    return 0;
 }
 
 /*
@@ -29,6 +33,7 @@ int main()
     Desenvolvido em 1979 por Bjarne Stroustrup no Bell Labs como uma extensão para C
     Pode ser programado no paradigma estruturado ou orientado a objeto
     Finaliza cada sentença com ;
+    case sensitive, diferencia minusculo de maiusculo na hora de nomear variaveis
 
 
 
@@ -87,6 +92,16 @@ int main()
 
 4  -  Tipos de Dados
 
+    Primitivos
+
+        int             inteiro
+        float           ponto flutuante
+        double          pf precisao dupla (melhor)
+        char            caractere, letra
+        wchar_t         caractere do UTF-16
+        bool            booleano, true ou false
+
+
 5  -  Modificadores
 
 6  -  Variavel e Constante
@@ -96,6 +111,8 @@ int main()
 8  -  Operadores (matematicos, logicos, comparacao)
 
 9  -  Impressao
+
+    cout << variavel << endl
 
 10  -  Escaneamento
 

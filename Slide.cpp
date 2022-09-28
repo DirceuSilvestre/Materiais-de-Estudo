@@ -101,10 +101,24 @@ int main()
         wchar_t         caractere do UTF-16
         bool            booleano, true ou false
 
+    Nao primitivos
+
+        string          vetor de char, tem metodos como o .length
+
 
 5  -  Modificadores
 
+    short           assegura que o numero será de 2 bytes (16bits)
+    long            assegura que o numero será de 4 bytes (32bits), o int ja é long
+    unsigned        para trabalhar com numeros somente positivos
+
+
 6  -  Variavel e Constante
+
+    tipo variavel;
+    #define CONSTANTE;
+    const tipo constante;
+
 
 7  -  Declaração
 
@@ -114,9 +128,14 @@ int main()
 
     cout << variavel << endl
 
+
 10  -  Escaneamento
 
 11  -  Estruturas (condicionais, repeticao)
+
+    if (condição) {bloco de código}
+    else {bloco de codigo}
+
 
 12  -  Bibliotecas
 
@@ -129,6 +148,9 @@ int main()
 16  -  Ponteiro
 
 17  -  Alocação Dinâmica
+
+    sizeof()            retorna a quantidade em bytes que aquele tipo ocupa
+
 
 18  -  Leitura e Escrita em arquivo
 

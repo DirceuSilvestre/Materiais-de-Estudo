@@ -2,47 +2,38 @@
 	Modelo para Padronização dos Materiais de Apoio das Linguagens
 
 
-       Arquivo  "Slide.linguagem"
+0  -  Sobre a Linguagem
 
+1  -  Local de cada coisa no código
 
-       Compilar
+2  -  Comentarios
 
-Linux:	 
+3  -  Atribuição
 
-Windows:
+4  -  Tipos de Dados
 
-0  -  Sobre a Linguagem		(breve historia, motivacao, paradigma, qualidades)
+5  -  Variavel e Constante
 
-1  -  Local de cada coisa no código	(como é a estrutura básica da codificação nessa linguagem)
+6  -  Declaração
 
-2  -  Comentarios			(o que usam para fazer comentários no código)
+6  -  Operadores (matematicos, logicos, comparacao)
 
-3  -  Atribuição			(simbolo usado para atribuicao dos dados a uma variavel e como atribuir)
+7  -  Impressao
 
-4  -  Tipos de Dados			(primitivos, nao primitivos, comum as linguagens e especificos dela)
+8  -  Escaneamento
 
-5  -  Modificadores			(java e outras linguagens que tenham)
+9  -  Estruturas Condicionais
 
-6  -  Variavel e Constante		(local, global, parametro, constante, classe, atributo, metodo)
+10  -  Bibliotecas
 
-7  -  Declaração			(como declaram todos os tipos de dados)
+11  -  Função e Parâmetro
 
-8  -  Operadores (matematicos, logicos, comparacao)
+12  -  Tipos específicos da linguagem
 
-9  -  Impressao			(formas de imprimir em cada local, como saida padrao no terminal ou arquivo)
+13  -  Ponteiro
 
-10  -  Escaneamento			(formas de coletar o dado e os locais, como teclado ou arquivo)
+14  -  Alocação Dinâmica
 
-11  -  Estruturas (condicionais, repeticao)
+15  -  Leitura e Escrita em arquivo
 
-12  -  Bibliotecas			(bibliotecas mais usadas da linguagem)
-
-13  -  Função e Parâmetro		(como se declara uma função e seus parametros)
-
-14  -  Ponteiro			(como trabalhar com ponteiros na linguagem)
-
-15  -  Alocação Dinâmica		(alocar e desalocar memória)
-
-16  -  Leitura e Escrita em arquivo	(toda a forma de se trabalhar com arquivo exceto impressao e escaneamento)
-
-17  -  Topicos Avançados (macro, construir biblioteca, compilação)
+16  -  Topicos Avançados (macro, construir biblioteca, compilação)
